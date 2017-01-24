@@ -36,9 +36,9 @@
     <message>
         <location filename="../assets/main.qml" line="26"/>
         <location filename="../assets/main.qml" line="32"/>
-        <location filename="../assets/main.qml" line="151"/>
-        <location filename="../assets/main.qml" line="157"/>
-        <location filename="../assets/main.qml" line="163"/>
+        <location filename="../assets/main.qml" line="168"/>
+        <location filename="../assets/main.qml" line="174"/>
+        <location filename="../assets/main.qml" line="180"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
@@ -60,22 +60,32 @@ You can write your love message right now, you can change it only once if you re
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="152"/>
+        <location filename="../assets/main.qml" line="134"/>
+        <source>Last update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../assets/main.qml" line="135"/>
+        <source>You&apos;re allowed to only one modification, this new message will be your final message, you won&apos;t be able to modify it anymore. Continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../assets/main.qml" line="169"/>
         <source>Your text will be both automatically and manually screened for offensive language and personal identifiable information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="158"/>
+        <location filename="../assets/main.qml" line="175"/>
         <source>If you try to post such things, you&apos;ll be banned from using this app.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="164"/>
+        <location filename="../assets/main.qml" line="181"/>
         <source>Contact info@cellninja.ca at any time if you find any other user&apos;s message offensive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="141"/>
+        <location filename="../assets/main.qml" line="158"/>
         <source>(Clean language and anonymity enforced)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -90,7 +100,7 @@ You can write your love message right now, you can change it only once if you re
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/main.qml" line="133"/>
+        <location filename="../assets/main.qml" line="150"/>
         <source>You&apos;ll start receiving Love messages from other BlackBerry 10 users on February 14th, randomly picked and sent to your Hub between 8am and 9pm.</source>
         <translation type="unfinished"></translation>
     </message>

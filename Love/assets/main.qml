@@ -120,10 +120,27 @@ Page {
                         horizontalAlignment: HorizontalAlignment.Center
                         enabled: !messageTextArea.isEmpty && (messageUpdateCount < 2)
                         onClicked: { 
-                            progressIndicatorContainer.visible = true
-                            
-                            _app.sendToHL("UPDATE_MESSAGE", messageTextArea.text) 
+                            if (messageUpdateCount == 1) {
+                                lastUpdateDialog.show()
+                            }
+                            else {
+                                progressIndicatorContainer.visible = true
+                                _app.sendToHL("UPDATE_MESSAGE", messageTextArea.text) 
+                            }
                         }
+                        attachedObjects: [
+                            SystemDialog {
+                                id: lastUpdateDialog
+                                title: qsTr("Last update")
+                                body: qsTr("You're allowed to only one modification, this new message will be your final message, you won't be able to modify it anymore. Continue?")
+                                onFinished: {
+                                    if (result == SystemUiResult.ConfirmButtonSelection) {
+                                        progressIndicatorContainer.visible = true
+                                        _app.sendToHL("UPDATE_MESSAGE", messageTextArea.text) 
+                                    }
+                                }
+                            }
+                        ]
                     }
                     
                     Container {
